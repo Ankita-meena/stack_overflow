@@ -1,0 +1,82 @@
+.subscription-container {
+  display: flex;
+  align-items: center;
+}
+
+.subscription-content {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.output-group {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select,
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.payment-options {
+  margin-top: 20px;
+}
+
+.payment-option {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-options {
+  margin-top: 10px;
+}
+
+.card-element {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.subscribe-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.subscription-details {
+  margin-top: 20px;
+}
+
+.subscription-details p {
+  margin-bottom: 10px;
+}

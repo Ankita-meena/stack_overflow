@@ -1,0 +1,38 @@
+POST http://localhost:5000/comment/post HTTP/1.1
+Content-Type: application/json
+
+{
+    "userId":"hello",
+    "email":"hello@hello.com",
+    "text":"hello my name is ankita",
+    "qid":"62e6c624d9d63bd1ca3ed0d8",
+    "name":"hello"
+
+}
+
+###
+GET http://localhost:5000/comment/get?qid=62e6c624d9d63bd1ca3ed0d8 HTTP/1.1
+Content-Type: application/json
+
+###
+PATCH  http://localhost:5000/comment/update?cid=62ef96e917ef5c6cf41e9347 HTTP/1.1
+Content-Type: application/json
+
+{
+    "text":"hello my name is1 ankita",
+    "name":"hello"
+}
+
+###
+DELETE http://localhost:5000/comment/delete?cid=62ef970817ef5c6cf41e934b HTTP/1.1
+Content-Type: application/json
+
+###
+GET http://localhost:5000/location?lat=30.9689428&lon=76.4678653 HTTP/1.1
+Content-Type: application/json
+
+
+# 30.9689672, 76.4687302
+
+###
+GET https://api.opencagedata.com/geocode/v1/json?key=65ddae864d014cc1bf8284b480357e47&q=30.9689428%2C+76.4678653&pretty=1&no_annotations=1
